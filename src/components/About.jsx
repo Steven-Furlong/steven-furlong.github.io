@@ -50,9 +50,12 @@ export default function About() {
               back it up through a Computer Information Systems degree at the University of the Fraser Valley.
               That mix now shows up daily at Syntaxis, where I build embedded firmware for Arduino and
               Raspberry Pi-based products while also fielding remote support for customers across Windows
-              and Linux-based systems. I'm currently looking for a role in IT, information systems,
-              cybersecurity, or computer engineering where I can apply concepts I've learned while also
-              growing my individual skillset by learning from industry leaders.
+              and Linux-based systems.
+            </p>
+            <p>
+              I'm currently looking for a role in IT, information systems, cybersecurity, or computer
+              engineering where I can apply concepts I've learned while also growing my individual
+              skillset by learning from industry leaders.
             </p>
           </div>
 
