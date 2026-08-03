@@ -392,6 +392,37 @@ button {
   color: var(--text);
 }
 
+.about__side {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.about__photo {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  object-fit: cover;
+  background: var(--surface);
+}
+
+.about__photo--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: dashed;
+  border-color: var(--border-strong);
+}
+
+.about__photo--placeholder span {
+  font-family: var(--mono);
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: var(--text-faint);
+  letter-spacing: 0.02em;
+}
+
 .about__facts {
   display: grid;
   gap: 18px;

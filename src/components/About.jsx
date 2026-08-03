@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { profile, education } from '../data/content'
 
 const facts = [
@@ -6,6 +7,32 @@ const facts = [
   { label: 'Focus', value: 'IT Support · Helpdesk · Cybersecurity' },
   { label: 'Status', value: 'Open to junior roles' },
 ]
+
+const initials = profile.name
+  .split(' ')
+  .map((part) => part[0])
+  .join('')
+
+function AboutPhoto() {
+  const [failed, setFailed] = useState(false)
+
+  if (!profile.photo || failed) {
+    return (
+      <div className="about__photo about__photo--placeholder">
+        <span>{initials}</span>
+      </div>
+    )
+  }
+
+  return (
+    <img
+      className="about__photo"
+      src={profile.photo}
+      alt={profile.name}
+      onError={() => setFailed(true)}
+    />
+  )
+}
 
 export default function About() {
   return (
@@ -26,14 +53,18 @@ export default function About() {
             </p>
           </div>
 
-          <dl className="about__facts">
-            {facts.map((fact) => (
-              <div key={fact.label} className="about__fact">
-                <dt>{fact.label}</dt>
-                <dd>{fact.value}</dd>
-              </div>
-            ))}
-          </dl>
+          <div className="about__side">
+            <AboutPhoto />
+
+            <dl className="about__facts">
+              {facts.map((fact) => (
+                <div key={fact.label} className="about__fact">
+                  <dt>{fact.label}</dt>
+                  <dd>{fact.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
         </div>
       </div>
     </section>

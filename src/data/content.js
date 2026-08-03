@@ -11,7 +11,9 @@ export const profile = {
   linkedin: 'https://linkedin.com/in/stevendominic-furlong',
   github: 'https://github.com/Steven-Furlong',
   legacyPortfolio: 'https://stevenfurlongportfolio.webflow.io',
-  resumeFile: '/Steven Furlong Resume.pdf',
+  resumeFile: '/resume.pdf',
+  // Drop a headshot into public/profile.jpg to have it appear in the About section.
+  photo: '/profile.jpg',
   summary:
     "Computer Information Systems graduate with hands-on experience in remote technical support, hardware/software troubleshooting, and embedded systems engineering. Currently supporting international customers in a startup environment across Windows and Linux platforms. Seeking a junior role in IT support, helpdesk, or cybersecurity where I can apply my technical foundation to solve real problems.",
 }

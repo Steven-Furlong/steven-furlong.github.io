@@ -18,11 +18,9 @@ Almost everything on the site is driven from one file:
 [src/data/content.js](src/data/content.js).
 
 TO DO:
-1. **GitHub link** — `profile.github` in `content.js` is a placeholder (`https://github.com/`).
-   Update it once this repo is live.
-2. **Résumé download** — the "Download Résumé" button in the hero links to `/resume.pdf`. Drop
-   your résumé PDF into the `public/` folder as `resume.pdf` so the link works.
-3. **Projects section** — the four project cards are drafted from your resume experience and
+1. **Photo** — the About section shows a placeholder with your initials until you drop a
+   headshot into `public/` as `profile.jpg` (matches `profile.photo` in `content.js`).
+2. **Projects section** — the four project cards are drafted from your resume experience and
    marked with an amber "Placeholder" badge. Swap in real repo links, screenshots, and demo URLs
    as projects go public, and remove the `placeholder: true` flag on each entry once it's real.
 
