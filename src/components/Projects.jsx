@@ -8,8 +8,8 @@ export default function Projects() {
           <span className="section__index">03.</span> Projects
         </h2>
         <p className="section__lede">
-          Draft entries built from real work — swap in repos, screenshots, and live demos as they
-          go public.
+          Hardware and embedded builds delivered for real clients — most are closed-source
+          contract work, so links go up as write-ups become available.
         </p>
 
         <div className="projects-grid">
@@ -26,10 +26,12 @@ export default function Projects() {
                 ))}
               </ul>
 
-              <div className="project-card__links">
-                <a href={project.repo}>Repo &rarr;</a>
-                {project.demo && <a href={project.demo}>Live Demo &rarr;</a>}
-              </div>
+              {(project.repo || project.demo) && (
+                <div className="project-card__links">
+                  {project.repo && <a href={project.repo}>Repo &rarr;</a>}
+                  {project.demo && <a href={project.demo}>Live Demo &rarr;</a>}
+                </div>
+              )}
             </article>
           ))}
         </div>

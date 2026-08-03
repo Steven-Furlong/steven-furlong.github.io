@@ -100,47 +100,47 @@ export const skills = [
   },
 ]
 
-// Placeholder projects derived from resume experience — swap these out with
-// real repos, screenshots, and write-ups as they become available.
+// Pulled from stevenfurlongportfolio.webflow.io — add repo/demo links as they
+// become available (most of these are client hardware builds without public repos).
 export const projects = [
   {
-    title: 'Embedded Firmware Suite for IoT Hardware',
-    tagline: 'C++/Python firmware for Arduino & Raspberry Pi products shipped to international customers.',
+    title: 'EMG Controlled Robotic Hand',
+    tagline: 'A robotic hand driven by real-time EMG signals captured from muscle activity.',
     description:
-      'Firmware built from scratch to drive Arduino and Raspberry Pi-based hardware products, covering sensor I/O, device configuration, and update handling for a startup hardware line.',
-    tags: ['C++', 'Python', 'Arduino', 'Raspberry Pi', 'Embedded'],
-    placeholder: true,
-    repo: '#',
+      'Built a robotic hand controlled by electromyography (EMG) signals captured from muscle activity, combining embedded firmware with real-time bioelectrical signal processing.',
+    tags: ['Embedded Systems', 'Signal Processing', 'Bioelectrical Sensing', 'Hardware'],
+    placeholder: false,
+    repo: null,
     demo: null,
   },
   {
-    title: 'Remote Support Diagnostics Toolkit',
-    tagline: 'Internal tooling and playbooks for triaging hardware, firmware, and OS incidents at scale.',
+    title: 'Bus Simulation Side Panel — City of Seattle',
+    tagline: 'A custom transit driver-training panel built to spec for a municipal client.',
     description:
-      'Scripts and documentation supporting remote diagnosis of 100+ hardware, firmware, driver, and OS compatibility incidents across Windows environments, delivered over RustDesk.',
-    tags: ['PowerShell', 'Windows', 'RustDesk', 'Documentation'],
-    placeholder: true,
-    repo: '#',
+      'Designed and built a custom transit driver training panel to exact specifications for a municipal client, bridging hardware design with simulation software integration.',
+    tags: ['Hardware Design', 'Circuit Engineering', 'Simulation Integration'],
+    placeholder: false,
+    repo: null,
     demo: null,
   },
   {
-    title: 'Root-Cause Failure Pattern Tracker',
-    tagline: 'A structured log for embedded failure patterns that cut repeat escalations.',
+    title: 'Wireless Hot-Swap Push Button',
+    tagline: 'A hot-swappable PC peripheral button with 2.4GHz wireless and wireless charging.',
     description:
-      'A lightweight tracking system for recurring embedded system failures, used to spot patterns early and document fixes so the same issue does not escalate twice.',
-    tags: ['Python', 'SQL', 'Root-Cause Analysis'],
-    placeholder: true,
-    repo: '#',
+      'Designed a single hot-swappable button featuring 2.4GHz wireless connectivity and wireless charging, solving a niche flexibility problem for PC peripheral setups.',
+    tags: ['Circuit Design', 'Firmware', 'Wireless', 'Product Design'],
+    placeholder: false,
+    repo: null,
     demo: null,
   },
   {
-    title: 'Cloud-Hosted Network Monitoring Dashboard',
-    tagline: 'CIS capstone-style project tying together networking, cloud, and cybersecurity coursework.',
+    title: 'EMU Flight Display — Indian Flight School',
+    tagline: 'A Raspberry Pi-powered instrument display for professional pilot training.',
     description:
-      'A dashboard concept for monitoring network health and flagging anomalies, built around coursework in Cloud Computing, Networking, and Cybersecurity at UFV.',
-    tags: ['Azure', 'Networking', 'Cybersecurity'],
-    placeholder: true,
-    repo: '#',
+      'Built a Raspberry Pi-powered display replicating aircraft instrumentation for a professional flight school client, including remote international deployment.',
+    tags: ['Raspberry Pi', 'Simulation', 'Aviation Systems'],
+    placeholder: false,
+    repo: null,
     demo: null,
   },
 ]
