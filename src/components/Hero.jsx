@@ -39,7 +39,7 @@ export default function Hero() {
 
       <div className="container hero__inner">
         <p className="hero__eyebrow">
-          <span className="dot" /> Available for junior IT / cybersecurity roles
+          <span className="dot" /> Available for IT, Information Systems, or cybersecurity roles
         </p>
 
         <h1 className="hero__name">{profile.name}</h1>
