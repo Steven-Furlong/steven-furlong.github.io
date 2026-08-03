@@ -44,16 +44,15 @@ export default function About() {
 
         <div className="about">
           <div className="about__text">
-            <p>{profile.summary}</p>
             <p>
-              My path into tech started with a curiosity for how hardware and software meet, wiring up
-              microcontrollers and then learning the systems and networking fundamentals to back it up
-              through a Computer Information Systems degree. That mix now shows up daily at Syntaxis, where I
-              build embedded firmware for Arduino and Raspberry Pi products while also fielding remote
-              support tickets for customers across Windows and Linux. I like the range: one hour I'm debugging
-              a driver conflict, the next I'm diagnosing a firmware fault on hardware shipped overseas.
-              I'm currently looking for a role where that same blend of troubleshooting, systems knowledge,
-              and embedded engineering can keep growing, especially in IT support or cybersecurity.
+              My path into tech started with a hands-on curiosity for how hardware and software meet.
+              From wiring up microcontrollers, to then learning the systems and networking fundamentals to
+              back it up through a Computer Information Systems degree at the University of the Fraser Valley.
+              That mix now shows up daily at Syntaxis, where I build embedded firmware for Arduino and
+              Raspberry Pi-based products while also fielding remote support for customers across Windows
+              and Linux-based systems. I'm currently looking for a role in IT, information systems,
+              cybersecurity, or computer engineering where I can apply concepts I've learned while also
+              growing my individual skillset by learning from industry leaders.
             </p>
           </div>
 
