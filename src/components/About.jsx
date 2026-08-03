@@ -48,7 +48,7 @@ export default function About() {
             <p>
               Computer Information Systems Graduate with hands-on experience in remote technical support,
               hardware/software troubleshooting, and embedded systems engineering.
-              Currently supporting international customers in a startup environment across Windows and Linux platforms. 
+              Currently supporting international customers in a startup environment across Windows and Linux platforms.
               Seeking a role in IT support, information systems, or cybersecurity where I can apply my technical foundation
               to solve real problems.
             </p>
