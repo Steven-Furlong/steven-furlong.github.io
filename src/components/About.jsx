@@ -46,11 +46,14 @@ export default function About() {
           <div className="about__text">
             <p>{profile.summary}</p>
             <p>
-              Computer Information Systems Graduate with hands-on experience in remote technical support,
-              hardware/software troubleshooting, and embedded systems engineering.
-              Currently supporting international customers in a startup environment across Windows and Linux platforms.
-              Seeking a role in IT support, information systems, or cybersecurity where I can apply my technical foundation
-              to solve real problems.
+              My path into tech started with a hands-on curiosity for how hardware and software meet —
+              wiring up microcontrollers, then learning the systems and networking fundamentals to back it up
+              through a Computer Information Systems degree. That mix now shows up daily at Syntaxis, where I
+              build embedded firmware for Arduino and Raspberry Pi-based products while also fielding remote
+              support tickets for customers across Windows and Linux. I like the range: one hour I'm debugging
+              a driver conflict, the next I'm root-causing a firmware fault on hardware shipped overseas.
+              I'm currently looking for a role where that same blend of troubleshooting, systems knowledge,
+              and low-level engineering can keep growing — especially in IT support or cybersecurity.
             </p>
           </div>
 
