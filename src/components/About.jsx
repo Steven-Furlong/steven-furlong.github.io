@@ -46,10 +46,11 @@ export default function About() {
           <div className="about__text">
             <p>{profile.summary}</p>
             <p>
-              My path here runs through hands-on embedded firmware work, direct customer
-              troubleshooting, and a CIS degree focused on operating systems, networking, and
-              cybersecurity fundamentals. I like problems with a clear root cause to find — and I
-              like documenting the fix so nobody has to solve it twice.
+              Computer Information Systems Graduate with hands-on experience in remote technical support,
+              hardware/software troubleshooting, and embedded systems engineering.
+              Currently supporting international customers in a startup environment across Windows and Linux platforms. 
+              Seeking a role in IT support, information systems, or cybersecurity where I can apply my technical foundation
+              to solve real problems.
             </p>
           </div>
 
