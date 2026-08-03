@@ -15,11 +15,9 @@ Open the printed local URL (usually http://localhost:5173).
 ## Editing content
 
 Almost everything on the site is driven from one file:
-[src/data/content.js](src/data/content.js). Update your summary, experience, skills,
-certifications, and projects there — the components just render it.
+[src/data/content.js](src/data/content.js).
 
-Two things still need a personal touch before this is "done":
-
+TO DO:
 1. **GitHub link** — `profile.github` in `content.js` is a placeholder (`https://github.com/`).
    Update it once this repo is live.
 2. **Résumé download** — the "Download Résumé" button in the hero links to `/resume.pdf`. Drop
