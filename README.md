@@ -48,3 +48,4 @@ changes — no need to rename the repo to match a specific URL pattern.
 - [React 19](https://react.dev/) + [Vite](https://vite.dev/)
 - Plain CSS (no framework) — theme variables live at the top of [src/index.css](src/index.css)
 - [Inter](https://fonts.google.com/specimen/Inter) + [JetBrains Mono](https://www.jetbrains.com/lp/mono/) via Google Fonts
+
