@@ -4,8 +4,8 @@ import { profile, education } from '../data/content'
 const facts = [
   { label: 'Location', value: profile.location },
   { label: 'Education', value: `${education.degree}, ${education.year}` },
-  { label: 'Focus', value: 'Computer Engineering · Information Systems · Cybersecurity' },
-  { label: 'Status', value: 'Open to junior roles' },
+  { label: 'Focus', value: 'Computer Engineering · Information Sysatems · Cybersecurity' },
+  { label: 'Status', value: 'Open to new roles'},
 ]
 
 const initials = profile.name

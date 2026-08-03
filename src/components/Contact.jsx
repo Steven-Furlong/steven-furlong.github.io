@@ -23,7 +23,7 @@ export default function Contact() {
 
         <div className="contact">
           <p className="contact__lede">
-            Looking for a junior IT support, helpdesk, or cybersecurity hire? I'd like to hear
+            Looking for a specialist in IT support, information systems, or cybersecurity? I'd like to hear
             from you.
           </p>
 
