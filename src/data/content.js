@@ -9,10 +9,9 @@ export const profile = {
   email: 'sdfurlong02@gmail.com',
   phone: '+1 (604) 791-1434',
   linkedin: 'https://linkedin.com/in/stevendominic-furlong',
-  // TODO: replace with your GitHub username once this repo is live
-  github: 'https://github.com/',
+  github: 'https://github.com/Steven-Furlong',
   legacyPortfolio: 'https://stevenfurlongportfolio.webflow.io',
-  resumeFile: '/resume.pdf',
+  resumeFile: '"C:\Users\Steves\Desktop\Resume Stuff\Steven Furlong Resume.pdf"',
   summary:
     "Computer Information Systems graduate with hands-on experience in remote technical support, hardware/software troubleshooting, and embedded systems engineering. Currently supporting international customers in a startup environment across Windows and Linux platforms. Seeking a junior role in IT support, helpdesk, or cybersecurity where I can apply my technical foundation to solve real problems.",
 }
